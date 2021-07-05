@@ -1,0 +1,76 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-05 18:17:21
+ * @LastEditTime: 2021-07-05 19:27:26
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Penlf\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="./dist/Penlf.js"></script>
+</head>
+
+<body>
+    <div class="info">Penlf <span class="version">version:<span id="version-num"></span></span></div>
+    
+    <!-- 编辑器 -->
+    <div id="demo"></div>
+
+    <p class="hint">Ctrl + S: 保存</p>
+
+    <style>
+        .hint {
+            margin: 0 auto;
+            text-align: center;
+            color: rgba(9, 56, 75, 0.5);
+            padding-bottom: 50px;
+        }
+
+        .info {
+            position: relative;
+            margin: 50px auto;
+            text-align: center;
+            font-size: 50px;
+            color: rgb(15, 110, 148);
+            padding-bottom: 50px;
+            border-bottom: 1px solid rgb(15, 110, 148, .1);
+        }
+
+        .version {
+            color: rgba(11, 67, 88, 0.24);
+            font-size: 25px;
+        }
+
+        #demo {
+            width: 800px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px;
+            padding: 5px;
+            box-shadow: 0px 3px 8px 2px #00000022;
+            margin: 50px auto;
+        }
+    </style>
+
+    <script>
+        // 自定义保存 (save)
+        let save = (content) => {
+            console.log(content);
+            console.log("saved your content.");
+        }
+
+        // 初始化 (init)
+        let info = window.editor("#demo", save)
+        document.querySelector("#version-num").innerHTML = info.version
+    </script>
+</body>
+
+</html>

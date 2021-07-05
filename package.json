@@ -2,9 +2,10 @@
   "name": "penlf",
   "version": "0.3.0",
   "description": "a simple rich text editor.",
-  "main": "Penlf.js",
+  "main": "src/Penlf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/mesakas/Penlf/issues"
   },
-  "homepage": "https://github.com/mesakas/Penlf#readme"
+  "homepage": "https://github.com/mesakas/Penlf#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
+  }
 }
