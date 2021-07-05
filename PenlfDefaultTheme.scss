@@ -1,0 +1,89 @@
+$icon-size: 50px;
+
+.actionsBar {
+  width: 100%;
+  height: $icon-size;
+  position: relative;
+  border-radius: 13px;
+
+  .photo {
+
+  }
+
+
+  .icon {
+    width: $icon-size;
+    height: $icon-size;
+    border: none;
+    position: relative;
+    font-size: 13px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition-duration: .3s;
+    margin-right: 5px;
+    color: #3d82a0;
+  }
+
+  .icon:hover, .using {
+    background-color: #e6e9ea;
+    color: #0a4b65;
+  }
+}
+
+.editor {
+  $padding: 30px;
+
+  padding: $padding;
+  position: relative;
+  width: calc(100% - #{$padding * 2});
+  height: calc(100% - #{$icon-size} - #{$padding * 2});
+  line-height: 28px;
+  overflow: auto;
+
+  pre {
+    margin: 0;
+    word-break: break-all;
+    background-color: #e0e0e0;
+    overflow: auto;
+  }
+
+
+  hr {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+  }
+
+  blockquote {
+    color: #919399;
+    border-left: 5px #e2e3e5 solid;
+    padding-left: 8px;
+  }
+
+}
+
+.editor:empty:before {
+  content: "(。・・)ノ在这里写文章...";
+  margin-left: 5px;
+  color: #c4cbd0;
+  font-size: 15px;
+  cursor: text;
+}
+
+.editor:focus {
+  outline: none;
+}
+
+.editor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.editor::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ece9e9;
+}
+
+

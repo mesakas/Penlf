@@ -1,0 +1,24 @@
+{
+  "name": "penlf",
+  "version": "0.3.0",
+  "description": "a simple rich text editor.",
+  "main": "Penlf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesakas/Penlf.git"
+  },
+  "keywords": [
+    "Penlf",
+    "editor",
+    "richTextEditor"
+  ],
+  "author": "Mesakas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mesakas/Penlf/issues"
+  },
+  "homepage": "https://github.com/mesakas/Penlf#readme"
+}
