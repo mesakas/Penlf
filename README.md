@@ -1,7 +1,20 @@
-# Penlf
+# Penlf 富文本编辑器
+
+
+
+  
+
 ![image-20210705192237672](README.assets/image-20210705192237672.png)
 
+
+
+  
+
 A simple rich text editor. 一个简单的富文本编辑器。📑📌
+
+> Penlf.js 的体积仅仅只有 7KB！✨
+
+  
 
 ![image-20210705192319820](README.assets/image-20210705192319820.png)
 
@@ -10,6 +23,10 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
 
+
+
+
+  
 
 ## 用法
 
@@ -41,6 +58,10 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
 
+
+
+  
+
 ## 快捷键
 
 | 快捷键   | 功能   |
@@ -55,6 +76,14 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
 
+
+
+
+
+
+
+
+  
 
 ## 自定义功能
 
@@ -83,4 +112,48 @@ moreActions = [
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 许可证
+
+MIT License
+
+Copyright (c) 2021 Ming
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+
+
+
+
+  
 
