@@ -1,4 +1,4 @@
-<div align=center style="margin-top: 50px">
+<div align=center>
 <img src="README.assets/image-20210705205358611.png"/>
 </div>
 
