@@ -1,4 +1,6 @@
-![image-20210705205358611](README.assets/image-20210705205358611.png)
+<div align=center>
+<img src="README.assets/image-20210705205358611.png"/>
+</div>
 
 
 
