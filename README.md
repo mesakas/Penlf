@@ -18,10 +18,7 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
   
 
-  
-
-
-![image-20210705192319820](README.assets/image-20210705192319820.png)
+  ![image-20210706015553441](README.assets/image-20210706015553441.png)
 
 
 
