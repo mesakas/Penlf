@@ -36,7 +36,11 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
 
-## 用法🔨
+## 将Penlf添加到项目🔨
+
+您可以使用源码引入的方式和NPM引入的方式：
+
+
 
 ### 使用html原生方式引入
 
@@ -187,7 +191,6 @@ MIT License
 Copyright (c) 2021 Ming
 
 
-  
 
-  
+
 
