@@ -59,7 +59,7 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
         // 初始化 (init)，第一个参数对应你的网页dom
         // 注意，目前版本请在任何时候不要将任何元素的id和class设置为editor
-        let info = window.editor("#demo", save)
+        let info = window.penlf("#demo", save)
         document.querySelector("#version-num").innerHTML = info.version
 </script>
 ```
@@ -93,7 +93,7 @@ import penlf from 'penlf'; 	// 导入
 export default {
   name: 'App',
   mounted() {
-    penlf.editor("#demo", this.saveHandler)	// 加载penlf（注意：你必须将editor函数放在mounted中）
+    penlf("#demo", this.saveHandler)	// 加载penlf（注意：你必须将editor函数放在mounted中）
   },
   methods:{
     saveHandler(){

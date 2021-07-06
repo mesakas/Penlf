@@ -222,15 +222,15 @@ function init(editorOfHtmlElement, savedHandler, moreActions) {
     exec('defaultParagraphSeparator', 'p')
 }
 
-let editor = function editor(editor, saveHandler, moreActions) {
+function penlf(editor, saveHandler, moreActions) {
     if (typeof editor !== 'string') throw new Error("type of 'editor' variate must be 'string'.")
     init(document.querySelector(editor), saveHandler, moreActions)
 
     return {version: "0.3(beta)"}
 }
 
-window.editor = editor
+window.penlf = penlf
 
-export default {editor}
+export default penlf
 
 // module.exports = editor
