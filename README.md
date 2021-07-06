@@ -93,7 +93,7 @@ import penlf from 'penlf'; 	// 导入
 export default {
   name: 'App',
   mounted() {
-    penlf("#demo", this.saveHandler)	// 加载penlf（注意：你必须将editor函数放在mounted中）
+    window.penlf("#demo", this.saveHandler)	// 加载penlf（注意：你必须将editor函数放在mounted中）
   },
   methods:{
     saveHandler(){

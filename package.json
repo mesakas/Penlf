@@ -1,6 +1,6 @@
 {
   "name": "penlf",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "a simple rich text editor.",
   "main": "dist/Penlf.js",
   "scripts": {
