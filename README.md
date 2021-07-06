@@ -4,7 +4,7 @@
 
 
 
-  
+
 
 
 # Penlf 富文本编辑器📜
@@ -17,6 +17,8 @@
 A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 > Penlf.js 的体积仅仅只有 7KB！✨
+>
+> 如果你使用了npm，你可以通过 `npm install Penlf` 直接安装！您也可以到[npm](https://www.npmjs.com/package/penlf)查看本项目。
 
   
 
@@ -34,8 +36,9 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
 
-
 ## 用法🔨
+
+### 使用html原生方式引入
 
 ```js
 // 引入js
@@ -57,9 +60,45 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 </script>
 ```
 
-
-
 您也可以查看 [example.html](./example.html) 这个例子，了解如何使用。
+
+
+
+### 使用NPM引入到Vue
+
+首先使用npm将penlf安装到项目：
+
+``` shell
+npm install penlf -S
+```
+
+
+
+然后在你的 vue 文件中，引入penlf：
+
+```vue
+<template>
+  <div id="app">
+    <div id="demo"></div>	<!-- 被penlf接管的dom -->
+  </div>
+</template>
+
+<script>
+import penlf from 'penlf'; 	// 导入
+
+export default {
+  name: 'App',
+  mounted() {
+    penlf.editor("#demo", this.saveHandler)	// 加载penlf（注意：你必须将editor函数放在mounted中）
+  },
+  methods:{
+    saveHandler(){
+      // save...	在此处写你的自定义保存代码
+    }
+  }
+}
+</script>
+```
 
 
 
@@ -68,6 +107,10 @@ A simple rich text editor. 一个简单的富文本编辑器。📑📌
 
 
   
+
+
+
+
 
 
 
